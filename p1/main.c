@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+int main(void){
   char x[10];
   char max='\0';
   int maxnum=0;
