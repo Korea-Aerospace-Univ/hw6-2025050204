@@ -5,8 +5,8 @@ int main(void){
   char max='\0';
   int maxnum=0;
 
-  for(int i=0; i < 10; i++){
-    scanf("%c", &x[i]);
+  for(int *p=x; p < x + 10; p++){
+    scanf("%c", p);
   }
 
   for(char *p = x; p < x + 10; p++){
